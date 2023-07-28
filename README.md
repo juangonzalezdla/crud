@@ -1,6 +1,6 @@
 # Crud
 
-# Para clonar  el repositorio en su pc
+## Para clonar  el repositorio en su pc
 Abrir Git Bash, ingrese al directorio donde quiere que se clone el repositorio, luego:
 
 ```bash
