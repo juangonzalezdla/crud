@@ -15,7 +15,7 @@ const userUnregisterController = async (req, res) => {
       return res.status(401).send({ errors: ['Usuario no autorizado'] });
 
     /* Compara la contraseña ingresada con la del usuario buscado anteriormente
-      por su id en la base de datos para iniciar sesión, 
+      por su id en la base de datos para eliminar el usuario, 
       si las contrseñas no son iguales responde con un error */    
     const checkPassword = await compare(password, existingUserById.password);
     if (!checkPassword) 

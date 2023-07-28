@@ -13,6 +13,7 @@ const userUpdateDataController = async (req, res) => {
     if (!existingUserById) 
       return res.status(401).send({ errors: ['Usuario no autorizado'] });
 
+    // le asigna al usuario encontrado su nuevo nombre y apellido 
     existingUserById.name = name;
     existingUserById.lastName = lastName;
 
