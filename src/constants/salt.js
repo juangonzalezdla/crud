@@ -1,0 +1,1 @@
+export const SALT = 12; // Constante que contiene el numero de rounds que va a aplicar el hash
